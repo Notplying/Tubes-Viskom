@@ -1,0 +1,2 @@
+docker build -t tubes-viskom .
+docker run --name="TubesViskom" -p 30113:30113 tubes-viskom
